@@ -1,5 +1,5 @@
 
-function towelSort (matrix) {
+module.exports = function towelSort (matrix) {
   if ( arguments.length == 0) {
     return [];
    }
@@ -13,10 +13,4 @@ function towelSort (matrix) {
    let arr = [];
    arr = (matrix.join(",")).split (",");
    return arr.map(Number);
-}
-// You should implement your task here.
-
-module.exports = function towelSort (matrix) {
-
-  return [];
 }
